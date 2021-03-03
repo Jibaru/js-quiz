@@ -1,16 +1,15 @@
 # Preguntas básicas
 
-1. Tipos de datos en JS
+1. ¿Qué tipos de datos existen en JS?
 2. ¿Qué diferencia hay entre un valor y una referencia? ¿Qué tipos de datos se pasan por valor y por referencia?
 3. ¿Qué es un literal?
 4. ¿Se puede asignar una función a una variable? ¿Por qué sucede esto?
 5. ¿Qué son los valores trusy y falsy?
 6. ¿Qué es una función de primer orden? ¿Por qué en JS las funciones son de primer orden?
-7. ¿Qué es el scope?
+7. ¿Qué es el scope (o entorno léxico)?
 8. ¿Qué es un closure? ¿En que casos usarlo?
 9. ¿Qué diferencias existen entre let y var?
 10. ¿Cómo se define un objeto en JS? ¿Pueden crearse objetos con atributos privados?
-11. ¿Qué es el objeto this? ¿A qué apunta this? ¿Cómo cambiar la dirección a la que apunta?
 12. ¿Qué es el prototype? ¿Para qué sirve?
 13. ¿Qué es una fat arrow function? ¿Qué diferencias hay con una función normal?
 14. ¿Qué es una función constructora de objetos?
@@ -28,11 +27,18 @@
 # Preguntas intermedio
 
 1. ¿Qué es el DOM?
-2. ¿Qué es la pila de ejecución? ¿Cómo se ejecuta un programa en JS?
-3. ¿Qué es `Àrray.map`, `Array.reduce`, `Array.filter`?
-4. ¿Cómo se vincula JS con los elementos del DOM?
+2. ¿Si se declara un objeto con `const`, se puede modificar alguna propiedad?
+3. ¿Si se daclara un arreglo con `const`, se puede modificar algún elemento o agregar/quitar uno?
+4. ¿Qué es la pila de ejecución (o contexto de ejecución)? ¿Cómo se ejecuta un programa en JS?
+5. ¿Qué es `Àrray.map`, `Array.reduce`, `Array.filter`?
+6. ¿Cómo se vincula JS con los elementos del DOM?
 5. ¿Se pueden crear módulos en JS?
-6. ¿Qué valor se imprime?:
+6. ¿Qué es this y su contexto? ¿Qué significa this binding (o enlazamiento)? ¿Qué tipos de binding hay?
+7. ¿Qué es`arguments`?
+8. ¿Qué es la asignación por destructuración?
+9. ¿Para que sirve el operador spread `...`?
+10. ¿Qué es el prototype `Object`? ¿Qué utilidad se le puede dar?
+7. ¿Qué valor se imprime?:
 ```js
 let a = 10;
 function b() {
@@ -139,4 +145,4 @@ a();
 8. ¿Qué es el local storage?
 9. ¿Como exportar e importar datos de un módulo con ES6?
 10. ¿Es buena idea usar ES6 para una aplicación web?
-
+11. ¿Qué es `use strict`?
